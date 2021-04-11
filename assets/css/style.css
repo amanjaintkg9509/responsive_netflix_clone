@@ -1,0 +1,222 @@
+* {
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+body {
+    background-image: url("../images/img1.jpg");
+    margin: 0 0 0 0;
+  }
+  .trans-height {
+    height: 100vh;
+  }
+
+header .icon {
+    font-size: 47px;
+    color: #da0101;
+    font-weight: bold;
+}
+
+h2 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+.side-button{
+    float: right;
+}
+.ui-select {
+    background: rgba(0,0,0,.4);
+    border: 1px solid #aaa;
+    color: #fff;
+    font-size: .875rem;
+    padding: .25rem 1.375rem;
+    margin: 8px 20px 0px 0px;
+    height: 34px;
+}
+
+.authLinks.redButton {
+    background-color: #e50914;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    float: right;
+    margin-right: 25px;
+}
+.email-form-title{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.nfTextField{
+    height: 54px;
+    width: 492px;
+    padding: 0 12px 0 19px;
+}
+
+.our-story-card-text{
+    flex-direction: column;
+    text-align: -webkit-center;
+    width: max-content;
+}
+
+.our-story-card-subtitle {
+    font-size: 1.625rem;
+    margin: 1rem auto;
+    font-weight: 400;
+}
+
+.our-story-card-title {
+    max-width: 640px;
+    font-size: 3.125rem;
+    color: aliceblue;
+}
+.email-dev{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+.authLinks {
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: .5rem;
+    text-decoration: none;
+}
+
+form input[type="text"],
+input[type="password"] {
+    background: #333;
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px 0;
+    outline-color: currentcolor;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.main-div {
+    background-color: #000000ba;
+    padding: 40px 68px 40px;
+}
+
+button {
+    font-size: 16px;
+    font-weight: 700;
+    background: #e50914;
+    height: 57px;
+    width: 150px;
+    max-width: 100%;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+.submit-btn{
+    font-size: 16px;
+    font-weight: 700;
+    background: #e50914;
+    height: 47px;
+    width: 90vw;
+    max-width: 100%;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    margin: 30px 0;
+}
+.rem-chk-txt {
+    color: #b3b3b3;
+    font-size: 13px;
+}
+
+.help {
+    float: right;
+    color: #b3b3b3;
+    font-size: 13px;
+}
+
+.rem-chk-btn {
+    float: left;
+    height: 18px;
+    width: 21.6px;
+    margin: 0 6px 0 0;
+}
+
+.recaptcha-dev{
+    color: #8C8C8C;
+    font-size: 13px;
+}
+
+.container {
+    position: relative;
+    height: 560px;
+    width: 314px;
+    border-radius: 4px;
+}
+
+.netflix-icon {
+    width: 165px;
+    height: 70px;
+    fill:#e50914;
+    margin: 10px 0 0 30px;
+}
+.main-container{
+    background: #0000008a;
+}
+.fb-txt{
+    color: #737373;
+    font-size: 13px;
+    cursor: pointer;
+    margin: 0 0 0 5px;
+}
+.social-media-div{
+    margin: 70px 0px;
+}
+.new-signup{
+    color: #737373;
+    font-size: 16px;
+    margin: 16px 0 0 0;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 739px) {
+    .container {
+        width: 90vw;
+        height: 100%;
+        margin: 0;
+    }
+
+    body{
+        background-color: #333;
+        background-image: none;
+    }
+    
+}
+
+@media screen and (max-width: 440px){
+    .netflix-icon {
+        height: 20px;
+        margin: 12px;
+        width: 75px;
+        padding-top: 12px;
+    }
+    body{
+        background-color: #333;
+        background-image: none;
+    }
+}
